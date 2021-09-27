@@ -1,43 +1,70 @@
 /* Mobile devices */
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    background-color: #e4f1fe; 
 }
 header{
-    height: 10vh;
     background-color: #03203C;
     color: #e4f1fe;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 header h1{
-    width: 100%;
     text-align: center;
     font-size: 2.3em;
-    padding-top: .5em;
+    margin: 1em auto;
 }
 .main-content{
-    height: 80vh;
-    margin: 0 auto ;
-    background-color: #e4f1fe;
+    position: fixed;
+    top: 25%;
+}
+
+.main-content fieldset{
+    width: 90%;
+    margin: 0 auto;
+}
+.main-content fieldset legend{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.main-content label{
+    display:inline-block;
+    width: 100%;
+    margin-top: 1em;
+    font-size: 1.25em;
+}
+
+.main-content input{
+    margin-top: 0.25em;
+    font-size: 1.25em;
+}
+
+.btn-container{
+    width: 100%;
+    text-align: center;
 }
 
 .main-content .btn{
     height: 2em;
     width: 50%;
+    margin: 1em auto;
     background-color: #6bb9f0;
-    border: 1px solid transparent;
     border-radius: 7px;
 }
 footer{
     text-align: center;
     background-color: #03203C;
     color: #e4f1fe;
-    height: 10vh;
-    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-content{
-    padding-top: .5em;
+    margin: 2em auto;
 }
 
 
