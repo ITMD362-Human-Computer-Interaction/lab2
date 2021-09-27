@@ -27,35 +27,32 @@ header h1{
 }
 
 .main-content fieldset{
-    /* width: 90%; */
     margin: 0 auto;
 }
 .main-content fieldset legend{
     font-size: 1.5em;
     text-align: center;
 }
-
-.main-content label{
-    display:inline-block;
-    width: 100%;
-    margin-top: 1em;
+.main-content .label-input{
     font-size: 1.25em;
+    width: 90%;
+    margin: 1em auto;
+    text-align: left
 }
-
-.main-content input{
-    margin-top: 0.25em;
-    font-size: 1.25em;
+.main-content label{
+    display: block;
 }
 
 .btn-container{
     width: 100%;
+    height: 2em;
+    margin: 1em auto;
     text-align: center;
 }
 
 .main-content .btn{
-    height: 2em;
     width: 50%;
-    margin: 1em auto;
+    height: 2em;
     background-color: #6bb9f0;
     border-radius: 7px;
 }
@@ -72,16 +69,22 @@ footer{
     margin: 2em auto;
 }
 
+/* Tablet */
+@media screen and (min-width: 768px){
+    .main-content .label-input{
+        text-align: center;
+    }
+    .main-content label{
+        display: inline;
+    }
+    .main-content .btn-container{
+        width: 80%;
+    }
+  }
 
 /* Desktops */
-/* @media screen and (min-width: 1025px){
-    .main-content{
-        width: 90%;
-        position: fixed;
-        top: 50%;
-        background-color: chartreuse;
-        left: 50%;
-        margin-left: -45%;
-        margin-top: -20%;
+@media screen and (min-width: 1025px){
+    .main-content .btn-container{
+        width: 20%;
     }
-  } */
+  }
