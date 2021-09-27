@@ -17,12 +17,16 @@ header h1{
     margin: 1em auto;
 }
 .main-content{
+    width: 90%;
     position: fixed;
-    top: 25%;
+    top: 45%;
+    left: 50%;
+    margin-top: -45%; /* Negative half of height. */
+    margin-left: -45%;
 }
 
 .main-content fieldset{
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
 }
 .main-content fieldset legend{
