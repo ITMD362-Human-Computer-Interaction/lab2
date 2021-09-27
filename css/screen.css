@@ -17,11 +17,12 @@ header h1{
     margin: 1em auto;
 }
 .main-content{
+    height: 50%;
     width: 90%;
     position: fixed;
-    top: 45%;
-    left: 50%;
-    margin-top: -45%; /* Negative half of height. */
+    top: 25%;
+    bottom: 25%;
+    left: 50%; 
     margin-left: -45%;
 }
 
@@ -73,3 +74,14 @@ footer{
 
 
 /* Desktops */
+/* @media screen and (min-width: 1025px){
+    .main-content{
+        width: 90%;
+        position: fixed;
+        top: 50%;
+        background-color: chartreuse;
+        left: 50%;
+        margin-left: -45%;
+        margin-top: -20%;
+    }
+  } */
