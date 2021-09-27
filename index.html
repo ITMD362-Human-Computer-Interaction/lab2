@@ -11,16 +11,30 @@
     <header>
         <h1>ITMD 362 Lab 2</h1>
     </header>
-    <section class="form">
-        <form action="#null" method="POST" autocomplete="on">
-            <label for="">Email Address: <input type="email" name="email-field" placeholder="empire_today@email.com"></label>
-            <label for="">Phone Number: <input type="phone" name="phone-field" placeholder="(800) 588-2300"></label>
-            <label for="">Date of Birth: <input type="date" name="dob-field"></label>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
 
-    <p>I have the jingle from the Empire Today commercial stuck in my head.</p>
+        <fieldset>
+            <legend>User Information</legend>
+            <form action="#null" method="POST" autocomplete="on">
+                <div class="label-input">
+                    <label for="">Email Address: </label> 
+                    <input type="email" name="email-field" placeholder="empire_today@email.com">
+                </div>
+                <div class="label-input">
+                    <label for="">Phone Number: </label>
+                    <input type="phone" name="phone-field" placeholder="(800) 588-2300">
+                </div>
+                <div class="label-input">
+                    <label for="">Date of Birth: </label>
+                    <input type="date" name="dob-field">    
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </fieldset>
+    
+
+    <footer>
+        <p>I have the jingle from the Empire Today commercial stuck in my head.</p>
+    </footer>
     
 </body>
 </html>
